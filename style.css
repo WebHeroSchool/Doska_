@@ -2,5 +2,6 @@ h1 {
 font-family: 'Lobster', cursive;
 }
 p {
-  ont-family: 'Pacifico', cursive;
+  font-family: 'Pacifico', cursive;
+  color: red;
 }
