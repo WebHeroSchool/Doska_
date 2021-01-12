@@ -5,3 +5,65 @@ p {
   font-family: 'Pacifico', cursive;
   color: red;
 }
+
+
+.main-section {
+ margin: auto;
+ width: 80%;
+ border: dashed 1px red;
+}
+
+.wrapper {
+ margin: auto;
+ width: 80%;
+ border: dashed 1px red;
+}
+
+.header {
+ border: dashed 1px red;
+}
+
+.logo, .menu {
+ border: dashed 1px red;
+}
+
+.logo, .menu {
+ display: inline-block;
+ border: dashed 1px red;
+}
+
+.logo {
+ margin-right: 63%;
+}
+
+.header {
+ display: flex;
+}
+
+.header {
+ display: flex;
+ justify-content: space-between;
+}
+
+.logo {
+ padding: 40px 0;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+}
+
+.menu {
+ display: flex;
+ align-items: center;
+}
+
+.menu__item {
+  width: auto;
+ border: dashed 1px red;
+}
+
+.menu__item:last-child {
+ padding-right: 0;
+}
