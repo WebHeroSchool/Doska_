@@ -11,15 +11,14 @@ padding-top: 31px;
 .header {
  display: flex;
  justify-content: space-between;
- margin-bottom: 255px;
+ margin-bottom: 135px;
 }
 
 .logo {
- font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
  width: 190px;
  height: 35px;
  background: url('img/logo.svg');
- background-repeat: : no repeat;
+ background-repeat:no-repeat;
 }
 
 .menu {
@@ -72,42 +71,38 @@ padding-top: 31px;
  background: #0056EC;
 }
 
-.main {;
- padding-right: 63%;
- background: url(img/mainImg.svg);
- background-repeat: no-repeat;
- background-position: top right;
-}
 
 .main {
   padding: 70px 63% 150px 0;
 background: no-repeat url(img/mainImg.svg);
 background-size: 49%;
-background-position-x: 103%;
-background-position-y: 23%;
+background-position-x: 98%;
+background-position-y: 58%;
 
 }
 
 .main__title {
- margin: 0 0 40px 0;
- font: bold 70px/79px pt_serif, arial, helvetica, sans-serif;
+ margin: 38px 0 42px 0;
+ font: bold 66px/87px pt_serifbold, arial, helvetica, sans-serif;
 }
 
 .main__title-text_highlight{
   background: #ECF3FF;
 }
 .main__subtitle {
- margin: 0 0 41px 0;
+  line-height: 37px;
+  width: 456px;
+ margin: 0 0 46px 0;
  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+ font-size: 22px;
 }
 
 .main__button {
-  margin-block: 63px;
 display: inline-block;
  font: 22px/19px Roboto, arial, helvetica, sans-serif;
  color: #fff;
  background: #0056EC;
- padding: 19px 7px;
+ padding: 19px 4px;
  text-decoration: none;
  border-radius: 4px;
  transition: opacity .5s;
